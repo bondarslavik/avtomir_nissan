@@ -1,0 +1,20 @@
+{
+  "name": "avtomir_fiat",
+  "version": "1.0.0",
+  "description": "Published on Tilda.cc - - - Upload the project to your website: 1. Copy the contents of this folder to your server by FTP 2. Rename file htaccess to .htaccess",
+  "main": "index.html",
+  "scripts": {
+    "start": "node index.js",
+    "fix-links": "node fix-links.js",
+    "transform": "node transform.js",
+    "gunzip": "unzip -o ./archive/*.zip -d ./data",
+    "folders": "mkdir archive data docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "static-server": "^2.2.1"
+  }
+}
