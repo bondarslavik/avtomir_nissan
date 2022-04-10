@@ -1,0 +1,23 @@
+User-Agent: *
+Disallow: /page12450852.html
+Disallow: /footer
+Disallow: /page10670860.html
+Disallow: /header
+Disallow: /page15934913.html
+Disallow: /oh
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://nissan.vn.ua/sitemap.xml
+Sitemap: https://nissan.vn.ua/sitemap-store.xml
+Sitemap: https://nissan.vn.ua/sitemap-feeds.xml
+Host: https://nissan.vn.ua

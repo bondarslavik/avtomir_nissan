@@ -54,7 +54,7 @@ const asd = htaccess
     .filter(line => Boolean(line))
     .forEach(({dirName, fileName}) => {
         if (!fs.existsSync(dirName)) {
-            fs.mkdirSync(dirName);
+            fs.mkdirSync(dirName, {recursive: true});
         }
         fs.copyFileSync(fileName, `${dirName}/index.html`);
         console.log(`${fileName} -> ${dirName}/index.html`);
